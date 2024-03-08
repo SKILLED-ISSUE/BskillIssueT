@@ -1,6 +1,6 @@
 # BskillIssueT
 <p align="center">
-  <img src="https://github.com/SKILLED-ISSUE/BskillIssueT/blob/main/media/skill-issue-skill.gif" alt="animated" height="50" width="50"/>
+  <img src="https://github.com/SKILLED-ISSUE/BskillIssueT/blob/main/media/skill-issue-skill.gif" alt="animated" height="200" width="200"/>
 </p>
 
 Compilation ng aming kabobohan
