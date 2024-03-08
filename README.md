@@ -7,4 +7,5 @@ Compilation ng aming kabobohan
   fmark742\
   AgustinUno\
   Eiger\
-  1101101011
+  1101101011\
+  HiyuuRonri
