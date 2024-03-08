@@ -1,0 +1,53 @@
+
+def bmi_calculator(height, weight):
+    bmi = weight / (height ** 2)
+    if bmi <= 18.5:
+        print("Your BMI is %.2f" % bmi)
+        print("Remarks: Underweight")
+        print("Must do: You need to gain weight")
+    elif bmi <= 24.99:
+        print("Your BMI is %.2f" % bmi)
+        print("Remarks: Normal")
+        print("Must do: Keep it up")
+    elif bmi <= 29.9:
+        print("Your BMI is %.2f" % bmi)
+        print("Remarks: Overweight")
+        print("Must do: You need to lose weight")
+    elif bmi <= 34.99:
+        print("Your BMI is %.2f" % bmi)
+        print("Remarks: Obese class 1")
+        print("Must do: You need to lose weight")
+    elif bmi <= 39.99:
+        print("Your BMI is %.2f" % bmi)
+        print("Remarks: Obese class 2")
+        print("Must do: You need to lose weight")
+    else:
+        print("Your BMI is %.2f" % bmi)
+        print("Remarks: Morbid Obesity")
+        print("Must do: You need to lose weight")
+
+def is_float(string):
+    try:
+        float(string)
+        return True
+    except ValueError:
+        return False
+        
+print("BMI Calculator")
+while True:
+    height_input = input("Enter your height in meters: ")
+    if is_float(height_input):
+        height = float(height_input)
+        break
+    else:
+        print("Error: Please enter a valid number for height.")
+
+while True:
+    weight_input = input("Enter your weight in KG: ")
+    if is_float(weight_input):
+        weight = float(weight_input)
+        break
+    else:
+        print("Error: Please enter a valid number for weight.")
+
+bmi_calculator(height, weight)
